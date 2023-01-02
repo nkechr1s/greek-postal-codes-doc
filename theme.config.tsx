@@ -24,7 +24,7 @@ const config: DocsThemeConfig = {
     const { asPath } = useRouter()
     const { frontMatter } = useConfig()
     return <>
-      <meta property="og:url" content={`https://greek-postal-codes.gr${asPath}`} />
+      <meta property="og:url" content={`https://dev.greek-postal-codes.gr${asPath}`} />
       <meta property="og:title" content={frontMatter.title || 'Greek Postal Codes API'} />
       <meta property="og:description" content={frontMatter.description || 'Get data for all greek postal codes'} />
     </>
