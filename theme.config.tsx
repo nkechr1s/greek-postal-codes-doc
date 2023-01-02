@@ -6,7 +6,7 @@ import { useConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span>Greek Postal Codes API</span>,
   footer: {
-    text: 'Created by Fourth Ally',
+    text: 'MIT Licensed | Copyright © 2023 - present',
   },
   feedback: {
     content: null,
