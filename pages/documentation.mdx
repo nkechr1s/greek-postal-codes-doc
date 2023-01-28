@@ -69,6 +69,25 @@ GET https://api.greek-postal-codes.gr/get-tk/15125
 }
 ```
 
+## Get info of a postal code
+
+You can get the city and the state of a postal code by following the next example.
+
+```shell filename="get-info" {3} copy
+GET https://api.greek-postal-codes.gr/get-info/15125
+```
+
+```json filename="result example"
+{
+  "data": [
+    {
+      "city": "ΜΑΡΟΥΣΙ",
+      "state": "ΑΤΤΙΚΗΣ"
+    }
+  ]
+}
+```
+
 ## Get by city
 
 Like we did before on the postal code example you can get results by simply pass as a parameter the city you want.
